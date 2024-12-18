@@ -1,0 +1,53 @@
+AUTENTICACIÓN(usando el método POST)
+URL/ENDPOINT; http://localhost/api_rest/auth.php
+
+url 
+DATOS JSON:
+{
+    "usuario": "jaz",
+    "contrasena": "jaz2004"
+}
+
+
+METODO GET
+GET PARA VARIOS REGISTROS 
+http://localhost/api_rest/editoriales.php?pagina=1&cadena=cadenabuscada&token=valortoken
+
+METODO GET
+http://localhost/api_rest/editoriales.php?id=1&token=
+
+URL/ENDPOINT
+http://localhost:5000/entidad
+
+METODO POST
+URL/ENDPOINT: http://localhost/api_rest/editoriales.php
+
+DATOS JSON:
+{
+    "nombre": "",
+    "pais": "",
+    "fecha_fundacion": "",
+    "sitio_web": "",
+    "telefono": "",
+    "direccion": "",
+    "token": ""
+
+}
+
+METODO PUT
+URL/ENDPOINT: http://localhost/api_rest/editoriales.php
+
+DATOS JSON:
+{
+    "id_editorial": "",
+    "nombre": "",
+    "pais": "",
+    "fecha_fundacion": "",
+    "sitio_web": "",
+    "telefono": "",
+    "direccion": "",
+    "token": ""
+
+}
+
+http://localhost/api_rest/editoriales.php?id=1&token=valor
